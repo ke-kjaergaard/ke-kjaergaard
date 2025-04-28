@@ -1,3 +1,6 @@
+# This is a write-up for Natas - level 0
+## I am using firefox as my browser and Linux Mint XFCE as my OS - your setup may affect your solution
+
 I am greeted with a page containing only the text "You can find the password for the next level on this page."
 
 Intuitively, I click in different places to try to find a hidden button or something, but with no luck.
