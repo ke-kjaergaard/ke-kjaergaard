@@ -22,8 +22,7 @@ Knowing the success message, the script can search for that message and then sto
 
 The below script does what I just explained. It uses the requests library, which you can find documentation for here: https://requests.readthedocs.io/en/latest/
 
-## Start of python code
-
+```python 
 import requests
 from requests.auth import HTTPBasicAuth
 
@@ -41,8 +40,7 @@ for i in range(1,641):
         print(response.text)
         print("the admins session id was:", i)
         break
-
-## End of python code
+```
 
 When I ran it, the code stopped at 119. Just for fun I opened firefox, set the cookie PHPSESSID to 119 and reloaded, and found the credentials for the next level, as expected.
 
