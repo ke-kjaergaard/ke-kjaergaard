@@ -30,7 +30,7 @@ Here is the script:
 import requests
 from requests.auth import HTTPBasicAuth
 
-basicAuth=HTTPBasicAuth('natas19', 'tnwER7PdfWkxsG4FNWUtoAZ9VyZTJqJr')
+basicAuth=HTTPBasicAuth('natas19', <secret-password>)
 headers = {'Content-Type': 'application/x-www-form-urlencoded'}
 
 u="http://natas19.natas.labs.overthewire.org/index.php"
