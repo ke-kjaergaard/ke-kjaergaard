@@ -13,6 +13,6 @@ Maybe you even tried that a few times and came here in frustration.
 To get the answer, you should look closer at the url on the home or about page.
 It says index.php?page=about (or home).
 
-We want to go to a different page, though. How might we get there?
+We want to go to a page different from about, though. How might we get there?
 
 And that's the last hint you're getting ;)
