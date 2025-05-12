@@ -11,7 +11,8 @@ if(array_key_exists("needle", $_REQUEST)) {
 if($key != "") {
     passthru("grep -i $key dictionary.txt");
 }
-?>```
+?>
+```
 
 The php code above has a major security flaw. Can you spot it?
 
